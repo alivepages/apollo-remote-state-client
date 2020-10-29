@@ -6,7 +6,7 @@ import 'todomvc-app-css/index.css'
 import { cache } from './cache';
 
 
-const PORT = process.env.PORT || 400;
+//const PORT = process.env.PORT || 400;
 
 export const client = new ApolloClient({
   cache,
